@@ -78,7 +78,7 @@
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		08CDF6E4D1A1A141B3D86531170ACA6D /* Pods-oc-learn-oc-learnUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-oc-learn-oc-learnUITests-Info.plist"; sourceTree = "<group>"; };
 		0C247FB0A7D469417A9951108DA0A1F3 /* Pods-oc-learn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-oc-learn.debug.xcconfig"; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		246F5621018E6E7292A93118A5543D61 /* Pods-oc-learn-oc-learnUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-oc-learn-oc-learnUITests"; path = Pods_oc_learn_oc_learnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27A00D0775AA7885553EA421E191CCA2 /* Pods-oc-learnTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-oc-learnTests-dummy.m"; sourceTree = "<group>"; };
 		27E12E3D2779B5C7A8301A94F715DB4C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		97C5FF0BBA63B8F4C3CB6D1C99016626 /* Pods-oc-learn-oc-learnUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-oc-learn-oc-learnUITests-umbrella.h"; sourceTree = "<group>"; };
 		99DF082CFCC8696B4456613F3DDF3390 /* Pods-oc-learn-oc-learnUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-oc-learn-oc-learnUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9BB3D4CFC055E694CC4361807E855123 /* Pods-oc-learnTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-oc-learnTests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6320759FA85B4C0D9BA7102B0AFAA7F /* Pods-oc-learn-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-oc-learn-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A64D537DABF69BA4DFD0A3EA7C713D6D /* Pods-oc-learn-oc-learnUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-oc-learn-oc-learnUITests-frameworks.sh"; sourceTree = "<group>"; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
@@ -206,7 +206,6 @@
 				342C4D9B5E1E36390E7AF01E35444998 /* ViewController+MASAdditions.m */,
 				C84A449C2DE4F91F0620A5147DD42E0F /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -271,7 +270,7 @@
 		A3880E4EFAB691630A84B310CCC1203D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FFED36A657123030ABB700256D73F15 /* Masonry */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
 				5C6178F7B84442A609F61A31EAC844A9 /* Pods-oc-learn */,
 				246F5621018E6E7292A93118A5543D61 /* Pods-oc-learn-oc-learnUITests */,
 				B3E7F353E81649C22ACDCB87202ADF93 /* Pods-oc-learnTests */,
@@ -419,7 +418,7 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry */;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A135951983ACFF1D0D07AA1A17969949 /* Pods-oc-learnTests */ = {
@@ -641,7 +640,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -748,7 +747,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
