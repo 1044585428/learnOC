@@ -19,6 +19,9 @@
 		B10B76F02B1DBCF9001A312F /* oc_learnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B76EF2B1DBCF9001A312F /* oc_learnTests.m */; };
 		B10B76FA2B1DBCF9001A312F /* oc_learnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B76F92B1DBCF9001A312F /* oc_learnUITests.m */; };
 		B10B76FC2B1DBCF9001A312F /* oc_learnUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10B76FB2B1DBCF9001A312F /* oc_learnUITestsLaunchTests.m */; };
+		B122E7E52B3E9C5F00CEED2D /* GrammarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B122E7E42B3E9C5F00CEED2D /* GrammarViewController.m */; };
+		B122E7E92B3EA45100CEED2D /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B122E7E82B3EA45100CEED2D /* UIColor+HexString.m */; };
+		B1480EE22B95D30C00C43854 /* listBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1480EE12B95D30C00C43854 /* listBaseCell.m */; };
 		B84D571AD3333EBE74ACCA94 /* Pods_oc_learn_oc_learnUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF099C3F80A8E7243C8F1086 /* Pods_oc_learn_oc_learnUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,12 @@
 		B10B76F52B1DBCF9001A312F /* oc-learnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oc-learnUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10B76F92B1DBCF9001A312F /* oc_learnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oc_learnUITests.m; sourceTree = "<group>"; };
 		B10B76FB2B1DBCF9001A312F /* oc_learnUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oc_learnUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B122E7E32B3E9C5F00CEED2D /* GrammarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrammarViewController.h; sourceTree = "<group>"; };
+		B122E7E42B3E9C5F00CEED2D /* GrammarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrammarViewController.m; sourceTree = "<group>"; };
+		B122E7E72B3EA45100CEED2D /* UIColor+HexString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		B122E7E82B3EA45100CEED2D /* UIColor+HexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		B1480EE02B95D30C00C43854 /* listBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listBaseCell.h; sourceTree = "<group>"; };
+		B1480EE12B95D30C00C43854 /* listBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = listBaseCell.m; sourceTree = "<group>"; };
 		B3E76DCC80A1D319BD018A24 /* Pods-oc-learn-oc-learnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oc-learn-oc-learnUITests.debug.xcconfig"; path = "Target Support Files/Pods-oc-learn-oc-learnUITests/Pods-oc-learn-oc-learnUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B460BEF072D7901C848052DC /* Pods_oc_learn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oc_learn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF099C3F80A8E7243C8F1086 /* Pods_oc_learn_oc_learnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oc_learn_oc_learnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +153,11 @@
 		B10B76D22B1DBCF8001A312F /* oc-learn */ = {
 			isa = PBXGroup;
 			children = (
+				B122E7E62B3EA14400CEED2D /* extends */,
+				B122E7DF2B3E9BE300CEED2D /* Grammar */,
+				B122E7DE2B3E9BA700CEED2D /* controllers */,
+				B122E7DD2B3E9B9200CEED2D /* models */,
+				B122E7DC2B3E9B8800CEED2D /* views */,
 				B10B76D32B1DBCF8001A312F /* AppDelegate.h */,
 				B10B76D42B1DBCF8001A312F /* AppDelegate.m */,
 				B10B76D62B1DBCF8001A312F /* SceneDelegate.h */,
@@ -174,6 +188,71 @@
 				B10B76FB2B1DBCF9001A312F /* oc_learnUITestsLaunchTests.m */,
 			);
 			path = "oc-learnUITests";
+			sourceTree = "<group>";
+		};
+		B122E7DC2B3E9B8800CEED2D /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B122E7DD2B3E9B9200CEED2D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B1480EE02B95D30C00C43854 /* listBaseCell.h */,
+				B1480EE12B95D30C00C43854 /* listBaseCell.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B122E7DE2B3E9BA700CEED2D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		B122E7DF2B3E9BE300CEED2D /* Grammar */ = {
+			isa = PBXGroup;
+			children = (
+				B122E7E22B3E9C1D00CEED2D /* Models */,
+				B122E7E12B3E9C1300CEED2D /* Views */,
+				B122E7E02B3E9C0000CEED2D /* ViewControllers */,
+			);
+			path = Grammar;
+			sourceTree = "<group>";
+		};
+		B122E7E02B3E9C0000CEED2D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B122E7E32B3E9C5F00CEED2D /* GrammarViewController.h */,
+				B122E7E42B3E9C5F00CEED2D /* GrammarViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B122E7E12B3E9C1300CEED2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B122E7E22B3E9C1D00CEED2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B122E7E62B3EA14400CEED2D /* extends */ = {
+			isa = PBXGroup;
+			children = (
+				B122E7E72B3EA45100CEED2D /* UIColor+HexString.h */,
+				B122E7E82B3EA45100CEED2D /* UIColor+HexString.m */,
+			);
+			path = extends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +322,7 @@
 		B10B76C82B1DBCF8001A312F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					B10B76CF2B1DBCF8001A312F = {
@@ -414,10 +493,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B122E7E92B3EA45100CEED2D /* UIColor+HexString.m in Sources */,
 				B10B76DB2B1DBCF8001A312F /* ViewController.m in Sources */,
 				B10B76D52B1DBCF8001A312F /* AppDelegate.m in Sources */,
 				B10B76E62B1DBCF9001A312F /* main.m in Sources */,
 				B10B76D82B1DBCF8001A312F /* SceneDelegate.m in Sources */,
+				B122E7E52B3E9C5F00CEED2D /* GrammarViewController.m in Sources */,
+				B1480EE22B95D30C00C43854 /* listBaseCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -575,7 +657,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -594,11 +676,12 @@
 				DEVELOPMENT_TEAM = N7JYBNQB9Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "oc-learn/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -622,11 +705,12 @@
 				DEVELOPMENT_TEAM = N7JYBNQB9Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "oc-learn/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = test;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -648,7 +732,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7JYBNQB9Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "amh.oc-learnTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -667,7 +750,6 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7JYBNQB9Q;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "amh.oc-learnTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
